@@ -1,0 +1,74 @@
+{
+    "productos": [
+      {
+
+      "id": "1",
+      "nombre": "Pizza Margherita",
+      "precio": 12000,
+      "stock": 30,
+      "categoria": "1",
+      "proveedor": "1"
+    },
+    {
+      "id": "2",
+      "nombre": "Pizza Pepperoni",
+      "precio": 15000,
+      "stock": 20,
+      "categoria": "1",
+      "proveedor": "2"
+
+      }
+    ],
+     "categorias": [
+     {
+         "id": "1",
+         "nombre": "Pizzas"
+     },
+    {
+         "id": "2",
+         "nombre": "Bebidas"
+      }
+    ],
+     "proveedores": [
+        {
+         "id": "1",
+         "nombre": "Proveedor de Pizzas Ltda.",
+         "contacto": "pizzas@proveedor.com"
+        },
+        {
+         "id": "2",
+         "nombre": "Proveedor de Ingredientes S.A.",
+         "contacto": "ingredientes@proveedor.com"
+          }
+    ],
+     "ventas": [
+        {
+         "id": "1",
+         "producto_id": "1",
+         "cliente_id": "1",
+         "cantidad": 2,
+         "fecha": "2024-11-01"
+        },
+        {
+         "id": "2",
+         "producto_id": "2",
+         "cliente_id": "2",
+         "cantidad": 1,
+         "fecha": "2024-11-03"
+        }
+    ],
+    "clientes": [
+        {
+         "id": "1",
+         "nombre": "Juan Pérez",
+         "email": "juan@cliente.com"
+        },
+        {
+         "id": "2",
+         "nombre": "Maria García",
+         "email": "maria@cliente.com"
+        }
+    ]
+}
+      
+  
